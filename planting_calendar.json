@@ -1,0 +1,393 @@
+[
+  {
+    "english": "Apple",
+    "maori": "āporo",
+    "harvest_time": "2-4 years",
+    "regions": {
+      "northern": [false,false,false,false,true,true,true,true,true,false,false,false],
+      "middle":   [false,false,false,false,true,true,true,true,true,false,false,false],
+      "southern": [false,false,false,false,true,true,true,true,true,false,false,false]
+    }
+  },
+{
+    "english": "Asparagus",
+    "maori": "apareka",
+    "harvest_time": "2 years",
+    "regions": {
+      "northern": [false,false,false,false,false,false,true,true,true,true,true,false],
+      "middle":   [false,false,false,false,false,false,false,true,true,true,true,true],
+      "southern": [false,false,false,false,false,false,false,false,true,true,true,false]
+    }
+  },
+{
+    "english": "Basil",
+    "maori": "otaota",
+    "harvest_time": "40-60 days",
+    "regions": {
+      "northern": [true,true,false,false,false,false,false,false,true,true,true,true],
+      "middle":   [true,true,false,false,false,false,false,false,true,true,true,true],
+      "southern": [true,true,false,false,false,false,false,false,false,false,true,true]
+    }
+  },
+{
+    "english": "Beans",
+    "maori": "Pīni",
+    "harvest_time": "85-110 days",
+    "regions": {
+      "northern": [false,false,true,true,false,false,false,true,true,true,true,true],
+      "middle":   [true,true,false,false,false,false,false,false,true,true,true,true],
+      "southern": [true,true,false,false,false,false,false,false,false,true,true,true]
+    }
+  },
+  {
+    "english": "Beetroot",
+    "maori": "Rengakura",
+    "harvest_time": "90-120 days",
+    "regions": {
+      "northern": [true,true,true,true,true,true,true,true,true,true,true,true],
+      "middle":   [true,true,true,true,false,false,true,true,true,true,true,true],
+      "southern": [true,true,true,true,false,false,false,false,true,true,true,true]
+    }
+  },
+{
+    "english": "Blueberry",
+    "maori": " purūpere",
+    "harvest_time": "60-90 days from flower",
+    "regions": {
+      "northern": [true,true,true,true,true,true,true,true,true,true,true,true],
+      "middle":   [true,true,true,true,true,true,true,true,true,true,true,true],
+      "southern": [true,true,true,true,true,true,true,true,true,true,true,true]
+    }
+  },
+{
+    "english": "Blackberry",
+    "maori": "parakipere",
+    "harvest_time": "1 year",
+    "regions": {
+      "northern": [false,false,false,false,true,true,true,true,true,true,true,false],
+      "middle":   [false,false,false,false,true,true,true,true,true,true,true,false],
+      "southern": [false,false,false,false,true,true,true,true,true,true,true,false]
+    }
+  },
+{
+    "english": "Bok choi",
+    "maori": "pakitoi",
+    "harvest_time": "20-45 days",
+    "regions": {
+      "northern": [false,false,true,true,true,true,true,true,true,true,false,false],
+      "middle":   [false,false,true,true,false,false,true,true,true,true,false,false],
+      "southern": [false,false,true,true,false,false,false,false,true,true,false,false]
+    }
+  },
+{
+    "english": "Broad bean",
+    "maori": "kōanga",
+    "harvest_time": "85-110 days",
+    "regions": {
+      "northern": [false,false,true,true,true,true,false,true,true,true,false,false],
+      "middle":   [false,false,true,true,true,true,false,true,true,true,false,false],
+      "southern": [false,false,true,true,true,false,false,false,true,true,false,false]
+    }
+  },
+  {
+    "english": "Broccoli",
+    "maori": "Purokoli",
+    "harvest_time": "60-120 days",
+    "regions": {
+      "northern": [false,true,true,true,false,false,false,true,false,false,false,false],
+      "middle":   [false,true,true,true,false,false,false,true,true,true,true,false],
+      "southern": [false,true,true,true,false,false,false,false,true,true,true,true]
+    }
+  },
+{
+    "english": "Brussel Sprouts",
+    "maori": "Aonanī",
+    "harvest_time": "120-140 days",
+    "regions": {
+      "northern": [true,true,true,true,false,false,false,false,false,false,false,true],
+      "middle":   [true,true,true,true,false,false,false,true,true,false,false,true],
+      "southern": [true,true,true,true,false,false,false,true,true,true,true,false]
+    }
+  },
+  {
+    "english": "Cabbage",
+    "maori": "Kāpeti",
+    "harvest_time": "105-140 days",
+    "regions": {
+      "northern": [false,true,true,true,true,true,false,true,true,true,false,false],
+      "middle":   [false,false,true,true,true,true,false,true,true,true,true,false],
+      "southern": [false,true,true,true,true,false,false,false,true,true,true,false]
+    }
+  },
+  {
+    "english": "Capsicum",
+    "maori": "Kāpeti reka",
+    "harvest_time": "80-100 days",
+    "regions": {
+      "northern": [true,false,false,false,false,false,false,true,true,true,true,true],
+      "middle":   [false,false,false,false,false,false,false,true,true,true,true,true],
+      "southern": [false,false,false,false,false,false,false,false,false,true,true,true]
+    }
+  },
+  {
+    "english": "Carrot",
+    "maori": "Kāreti",
+    "harvest_time": "50-65 days",
+    "regions": {
+      "northern": [false,true,true,true,true,false,false,true,true,true,true,false],
+      "middle":   [true,true,true,true,true,false,false,true,true,true,true,true],
+      "southern": [true,true,false,false,false,false,false,false,true,true,true,true]
+    }
+  },
+  {
+    "english": "Cauliflower",
+    "maori": "Kāpeti puawai",
+    "harvest_time": "90-120 days",
+    "regions": {
+      "northern": [false,false,true,true,true,false,false,false,false,false,false,false],
+      "middle":   [false,false,true,true,true,false,false,false,false,false,false,false],
+      "southern": [false,false,true,true,true,false,false,false,false,false,false,false]
+    }
+  },
+  {
+    "english": "Celery",
+    "maori": "Rīri",
+    "harvest_time": "80-85 days",
+    "regions": {
+      "northern": [false,false,true,false,true,true,false,true,true,true,false,false],
+      "middle":   [false,false,true,false,false,false,false,false,true,true,true,true],
+      "southern": [true,true,false,false,false,false,false,false,true,true,true,true]
+    }
+  },
+  {
+    "english": "Chilli",
+    "maori": "Tīari",
+    "harvest_time": "100-120 days",
+    "regions": {
+      "northern": [false,false,false,false,false,false,false,false,false,true,true,true],
+      "middle":   [false,false,false,false,false,false,false,false,false,true,true,true],
+      "southern": [false,false,false,false,false,false,false,false,false,true,true,true]
+    }
+  },
+  {
+    "english": "Coriander",
+    "maori": "Koriana",
+    "harvest_time": "30-45 days",
+    "regions": {
+      "northern": [false,false,false,false,false,false,false,false,true,true,true,false],
+      "middle":   [false,false,false,false,false,false,false,false,true,true,true,true],
+      "southern": [false,false,false,false,false,false,false,false,true,true,true,true]
+    }
+  },
+  {
+    "english": "Courgette",
+    "maori": "Roroa kotawa",
+    "harvest_time": "62-85 days",
+    "regions": {
+      "northern": [true,false,false,false,false,false,false,false,true,true,true,true],
+      "middle":   [false,false,false,false,false,false,false,false,true,true,true,true],
+      "southern": [false,false,false,false,false,false,false,false,false,true,true,true]
+    }
+  },
+  {
+    "english": "Cucumber",
+    "maori": "kūkamo",
+    "harvest_time": "60-80 days",
+    "regions": {
+      "northern": [true,true,true,false,false,false,false,true,true,true,true,true],
+      "middle":   [true,true,false,false,false,false,false,false,true,true,true,true],
+      "southern": [false,false,false,false,false,false,false,false,false,true,true,true]
+    }
+  },
+  {
+    "english": "Eggplant",
+    "maori": "Pōrohe",
+    "harvest_time": "85-110 days",
+    "regions": {
+      "northern": [true,true,false,false,false,false,false,true,true,true,true,true],
+      "middle":   [false,false,false,false,false,false,false,false,true,true,true,true],
+      "southern": [false,false,false,false,false,false,false,false,false,true,true,true]
+    }
+  },
+  {
+    "english": "Kale",
+    "maori": "Kare",
+    "harvest_time": "60-70 days",
+    "regions": {
+      "northern": [false,false,true,true,true,true,false,false,false,false,false,false],
+      "middle":   [false,false,true,true,true,true,false,false,false,false,false,false],
+      "southern": [false,false,true,true,true,false,false,false,false,false,false,false]
+    }
+  },
+  {
+    "english": "Leek",
+    "maori": "Riki roa",
+    "harvest_time": "160-180 days",
+    "regions": {
+      "northern": [true,true,true,true,false,false,false,true,true,true,false,false],
+      "middle":   [false,true,true,true,true,false,false,true,true,true,true,true],
+      "southern": [true,true,true,true,false,false,false,false,true,true,true,true]
+    }
+  },
+  {
+    "english": "Lettuce",
+    "maori": "Rētihi",
+    "harvest_time": "40-70 days",
+    "regions": {
+      "northern": [true,true,true,true,true,false,true,true,true,true,true,true],
+      "middle":   [true,true,true,true,true,true,true,true,false,true,true,true],
+      "southern": [true,true,true,true,true,false,false,true,true,true,true,true]
+    }
+  },
+  {
+    "english": "Mesclun",
+    "maori": "Rētihi ranu",
+    "harvest_time": "40-60 days",
+    "regions": {
+      "northern": [true,true,true,true,true,true,true,true,true,true,true,true],
+      "middle":   [true,true,true,true,true,true,true,true,true,true,true,true],
+      "southern": [true,true,true,true,false,false,false,true,true,true,true,true]
+    }
+  },
+  {
+    "english": "Onion",
+    "maori": "Riki",
+    "harvest_time": "70-180 days",
+    "regions": {
+      "northern": [false,false,true,true,true,false,false,false,false,false,false,false],
+      "middle":   [false,false,true,true,true,false,false,true,true,false,false,false],
+      "southern": [false,false,true,true,true,false,false,true,true,false,false,false]
+    }
+  },
+  {
+    "english": "Parsley",
+    "maori": "Pāhiri",
+    "harvest_time": "45-85 days",
+    "regions": {
+      "northern": [true,true,true,true,true,false,false,false,true,true,true,true],
+      "middle":   [true,true,true,true,true,false,false,false,true,true,true,true],
+      "southern": [true,true,true,true,false,false,false,false,true,true,true,true]
+    }
+  },
+  {
+    "english": "Parsnip",
+    "maori": "Pātene",
+    "harvest_time": "120-140 days",
+    "regions": {
+      "northern": [false,false,true,true,true,true,true,true,true,false,false,false],
+      "middle":   [false,false,false,false,false,false,true,true,true,true,true,true],
+      "southern": [false,false,false,false,false,false,false,true,true,true,true,true]
+    }
+  },
+    {
+    "english": "Peas",
+    "maori": "Pī",
+    "harvest_time": "45-70 days",
+    "regions": {
+      "northern": [true,true,true,true,false,false,false,false,false,false,false,false],
+      "middle":   [true,true,true,true,false,false,false,true,true,true,false,false],
+      "southern": [true,true,true,true,false,false,false,true,true,true,false,false]
+    }
+  },
+  {
+    "english": "Potatoes",
+    "maori": "Rīwai",
+    "harvest_time": "90-160 days",
+    "regions": {
+      "northern": [true,true,false,false,false,false,false,true,true,true,true,true],
+      "middle":   [true,true,false,false,false,false,false,false,true,true,true,true],
+      "southern": [true,false,false,false,false,false,false,false,true,true,true,true]
+    }
+  },
+  {
+    "english": "Pumpkin",
+    "maori": "Paukena",
+    "harvest_time": "110-170 days",
+    "regions": {
+      "northern": [true,true,false,false,false,false,false,true,true,true,true,true],
+      "middle":   [false,false,false,false,false,false,false,false,true,true,true,true],
+      "southern": [false,false,false,false,false,false,false,false,false,true,true,true]
+    }
+  },
+  {
+    "english": "Radish",
+    "maori": "Rētihi whero",
+    "harvest_time": "30-40 days",
+    "regions": {
+      "northern": [true,true,true,true,true,true,true,true,true,true,true,true],
+      "middle":   [true,true,true,true,true,true,true,true,true,true,true,true],
+      "southern": [true,true,true,true,true,true,true,true,true,true,true,true]
+    }
+  },
+  {
+    "english": "Raspberry",
+    "maori": "rāhipere",
+    "harvest_time": "1 year",
+    "regions": {
+      "northern": [false,false,false,false,true,true,true,true,true,true,true,false],
+      "middle":   [false,false,false,false,true,true,true,true,true,true,true,false],
+      "southern": [false,false,false,false,true,true,true,true,true,true,true,false]
+    }
+  },
+  {
+    "english": "Rocket",
+    "maori": "Roka",
+    "harvest_time": "30-40 days",
+    "regions": {
+      "northern": [false,true,true,true,true,true,true,true,true,true,true,true],
+      "middle":   [false,true,true,false,false,false,false,false,true,true,true,true],
+      "southern": [false,true,true,true,true,true,true,true,true,true,true,true]
+    }
+  },
+  {
+    "english": "Silverbeet",
+    "maori": "Pītiti hiriwa",
+    "harvest_time": "40-60 days",
+    "regions": {
+      "northern": [true,true,true,true,true,true,true,true,true,true,true,true],
+      "middle":   [true,true,true,true,false,false,false,true,true,true,true],
+      "southern": [true,true,true,true,false,true,true,true,true,true,true]
+    }
+  },
+  {
+    "english": "Spinach",
+    "maori": "Pīnati",
+    "harvest_time": "30-40 days",
+    "regions": {
+      "northern": [false,false,true,true,true,true,true,true,true,true,false,false],
+      "middle":   [false,false,true,true,true,true,true,true,true,true,false,false],
+      "southern": [false,true,true,true,true,true,true,true,true,true,false,false]
+    }
+  },
+  {
+    "english": "Spring Onion",
+    "maori": "Riki kōwhiti",
+    "harvest_time": "60-70 days",
+    "regions": {
+      "northern": [false,false,false,false,false,false,false,false,false,false,false,false],
+      "middle":   [false,false,false,true,true,true,true,true,true,true,false,false],
+      "southern": [false,true,true,true,true,true,true,true,true,true,false,false]
+    }
+  },
+  {
+    "english": "Sweetcorn",
+    "maori": "Kānga reka",
+    "harvest_time": "98-112 days",
+    "regions": {
+      "northern": [true,true,false,false,false,false,false,true,true,true,true,true],
+      "middle":   [true,true,false,false,false,false,false,false,true,true,true,true],
+      "southern": [true,false,false,false,false,false,false,false,false,true,true,true]
+    }
+  },
+  {
+    "english": "Tomato",
+    "maori": "Tōmato",
+    "harvest_time": "60-85 days",
+    "regions": {
+      "northern": [true,false,false,false,false,false,false,true,true,true,true,true],
+      "middle":   [true,false,false,false,false,false,false,true,true,true,true,true],
+      "southern": [true,false,false,false,false,false,false,false,false,true,true,true]
+    }
+  }
+]
+

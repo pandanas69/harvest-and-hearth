@@ -1,0 +1,32 @@
+{
+  "title": "Minimal & Neutral",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        { "slug": "sage", "color": "#E0E0E0", "name": "Light Gray" },
+        { "slug": "basil", "color": "#B0B0B0", "name": "Mid Gray" },
+        { "slug": "cream", "color": "#FFFFFF", "name": "White" },
+        { "slug": "terracotta", "color": "#CCCCCC", "name": "Soft Gray" },
+        { "slug": "charcoal", "color": "#222222", "name": "Charcoal" }
+      ],
+      "gradients": [
+        {
+          "slug": "sage-to-cream",
+          "name": "Light Gray to White",
+          "gradient": "linear-gradient(135deg, #E0E0E0 0%, #FFFFFF 100%)"
+        },
+        {
+          "slug": "terracotta-to-basil",
+          "name": "Soft Gray to Mid Gray",
+          "gradient": "linear-gradient(135deg, #CCCCCC 0%, #B0B0B0 100%)"
+        },
+        {
+          "slug": "cream-to-charcoal",
+          "name": "White to Charcoal",
+          "gradient": "linear-gradient(135deg, #FFFFFF 0%, #222222 100%)"
+        }
+      ]
+    }
+  }
+}

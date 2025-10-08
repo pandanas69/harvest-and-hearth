@@ -1,0 +1,325 @@
+/*!
+Theme Name: Harvest & Hearth
+Theme URI: https://example.com
+Author: Andrew
+Description: Garden-to-table inspired WordPress theme using Tailwind CSS.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: harvesthearth
+*/
+
+/* Gutenberg title font */
+.editor-styles-wrapper .editor-post-title__input {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  color: var(--wp--preset--color--charcoal);
+}
+@font-face {
+  font-family: 'InterVariable';
+  src: url('../fonts/InterVariable.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplayVariable';
+  src: url('../fonts/PlayfairDisplay-VariableFont_wght.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Front end */
+body {
+  @apply font-body text-charcoal bg-cream;
+}
+h1, h2, h3, h4, h5, h6 {
+  @apply font-heading text-basil;
+}
+a {
+  @apply text-basil hover:text-sage transition-colors;
+}
+
+/* Editor only */
+.editor-styles-wrapper body {
+  @apply font-body text-charcoal bg-cream;
+}
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h6 {
+  @apply font-heading text-basil;
+}
+.editor-styles-wrapper a {
+  @apply text-basil hover:text-sage transition-colors;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  /* Inline SVG logo */
+  .site-logo svg {
+    @apply h-10 w-auto block;
+  }
+
+  /* WooCommerce sale badge */
+  .woocommerce span.onsale {
+    @apply bg-basil text-white text-xs font-semibold flex items-center justify-center w-10 h-10 rounded-full;
+  }
+
+  /* Hamburger base bars */
+  #nav-toggle span {
+    @apply transition-transform duration-300 origin-center;
+  }
+
+  /* Hamburger → X animation */
+  #nav-toggle.open span:nth-child(1) {
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+  }
+  #nav-toggle.open span:nth-child(2) {
+    @apply opacity-0;
+  }
+  #nav-toggle.open span:nth-child(3) {
+    bottom: auto; /* unset bottom so top can take effect */
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+  }
+
+  /* Menu items with children */
+  .menu-item-has-children {
+    @apply relative;
+  }
+
+  /* Mobile + base submenu layout */
+  .sub-menu,
+  .submenu-depth-0 {
+    @apply block w-full bg-transparent shadow-none p-0 opacity-100 translate-y-0;
+  }
+
+  /* Category heading inside mega panel */
+  .submenu-depth-0 > li > a {
+    @apply mb-2 font-serif uppercase text-base font-semibold text-gray-800;
+  }
+
+  /* Posts list inside submenus */
+  .submenu-depth-1 {
+    @apply flex flex-col gap-y-1 pl-0 bg-transparent shadow-none static min-w-0;
+  }
+  .submenu-depth-1 > li > a {
+    @apply block font-sans normal-case text-sm text-gray-600 hover:text-gray-900;
+  }
+
+  .submenu-toggle {
+    @apply bg-transparent border-0 text-gray-600 cursor-pointer;
+  }
+
+  /* Caret animation */
+  .submenu-toggle svg {
+    transition: transform 300ms ease;
+    transform-origin: center;
+  }
+
+    /* Mobile: accordion behaviour */
+  @media (max-width: 767px) {
+    /* Collapsed state (default) */
+    #mobile-nav .menu-item-has-children > .sub-menu {
+      @apply overflow-hidden;
+      max-height: 0;
+      transition: max-height 300ms ease-in-out;
+    }
+
+    /* Open state: make room and reveal children */
+    #mobile-nav .menu-item-has-children.open > .sub-menu {
+      @apply overflow-visible;
+      max-height: 2000px; /* large enough for typical lists */
+    }
+
+    #mobile-nav .submenu-toggle {
+      display: inline-flex;
+    }
+  }
+
+
+  /* Desktop: mega panel */
+  @screen md {
+    .submenu-depth-0 {
+      @apply absolute left-0 top-full z-50 hidden group-hover:grid
+             bg-white shadow-lg rounded-md
+             transition ease-out duration-200 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0
+             gap-x-8 p-6 w-max min-w-[12rem];
+      grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    }
+    .submenu-depth-0 > li {
+      @apply flex flex-col;
+    }
+  }
+
+  /* WooCommerce single product sale badge position */
+  .woocommerce div.product .onsale {
+    @apply left-2 top-2;
+  }
+  /* === Harvest & Hearth Login/Register Branding === */
+.brand-login-container {
+  background-color: #fdfbf7; /* cream */
+  padding: 3rem 1rem;
+}
+
+.brand-login-logo {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.brand-login-logo img {
+  max-width: 200px;
+  height: auto;
+}
+
+.u-column1, .u-column2 {
+  background: #fff;
+  border: 2px solid #4a7c59; /* basil green */
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.woocommerce-form input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.woocommerce-form button {
+  background-color: #4a7c59;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.woocommerce-form button:hover {
+  background-color: #3a6247;
+}
+
+/* Stack login/register vertically on mobile */
+@media (max-width: 768px) {
+  .woocommerce-account .u-columns {
+    display: block;
+  }
+  .woocommerce-account .u-column1,
+  .woocommerce-account .u-column2 {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+
+
+}
+/* Kitchen widget */
+
+/* Kitchen Conversions widget */
+.conversion-widget {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 1.5rem;
+  max-width: 400px;
+  margin: 2rem auto;
+  background: #fafafa;
+  font-family: inherit;
+}
+
+.conversion-widget .conv-row {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.conversion-widget label {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.conversion-widget input,
+.conversion-widget select {
+  padding: 0.5rem;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.conversion-widget button {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  border: 2px solid #333;
+  border-radius: 20px;
+  background: transparent;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.conversion-widget button:hover {
+  background: #333;
+  color: #fff;
+ 
+}
+
+.conversion-widget .conv-result {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Kitchen Conversions Table */
+.conversion-table {
+  border-collapse: collapse;
+  margin: 2rem auto;
+  width: 100%;
+  max-width: 600px;
+  font-family: inherit;
+  font-size: 1rem;
+  background: #fafafa; /* light background */
+  border-radius: 8px;
+  overflow: hidden; /* rounds the corners */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.conversion-table th,
+.conversion-table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.conversion-table th {
+  background: #f0f0f0;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.conversion-table tr:nth-child(even) td {
+  background: #fdfdfd;
+}
+
+.conversion-table tr:hover td {
+  background: #f7f7f7;
+}
+

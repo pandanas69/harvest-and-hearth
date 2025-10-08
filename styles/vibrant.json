@@ -1,0 +1,32 @@
+{
+  "title": "Bold & Vibrant",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        { "slug": "sage", "color": "#00B894", "name": "Teal" },
+        { "slug": "basil", "color": "#0984E3", "name": "Blue" },
+        { "slug": "cream", "color": "#FFEAA7", "name": "Soft Yellow" },
+        { "slug": "terracotta", "color": "#D63031", "name": "Red" },
+        { "slug": "charcoal", "color": "#2D3436", "name": "Dark Gray" }
+      ],
+      "gradients": [
+        {
+          "slug": "sage-to-cream",
+          "name": "Teal to Soft Yellow",
+          "gradient": "linear-gradient(135deg, #00B894 0%, #FFEAA7 100%)"
+        },
+        {
+          "slug": "terracotta-to-basil",
+          "name": "Red to Blue",
+          "gradient": "linear-gradient(135deg, #D63031 0%, #0984E3 100%)"
+        },
+        {
+          "slug": "cream-to-charcoal",
+          "name": "Soft Yellow to Dark Gray",
+          "gradient": "linear-gradient(135deg, #FFEAA7 0%, #2D3436 100%)"
+        }
+      ]
+    }
+  }
+}

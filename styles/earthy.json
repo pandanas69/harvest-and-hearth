@@ -1,0 +1,32 @@
+{
+  "title": "Earthy & Warm",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        { "slug": "sage", "color": "#A3B18A", "name": "Sage" },
+        { "slug": "basil", "color": "#588157", "name": "Basil" },
+        { "slug": "cream", "color": "#F6F4E6", "name": "Cream" },
+        { "slug": "terracotta", "color": "#BC6C25", "name": "Terracotta" },
+        { "slug": "charcoal", "color": "#283618", "name": "Charcoal" }
+      ],
+      "gradients": [
+        {
+          "slug": "sage-to-cream",
+          "name": "Sage to Cream",
+          "gradient": "linear-gradient(135deg, #A3B18A 0%, #F6F4E6 100%)"
+        },
+        {
+          "slug": "terracotta-to-basil",
+          "name": "Terracotta to Basil",
+          "gradient": "linear-gradient(135deg, #BC6C25 0%, #588157 100%)"
+        },
+        {
+          "slug": "cream-to-charcoal",
+          "name": "Cream to Charcoal",
+          "gradient": "linear-gradient(135deg, #F6F4E6 0%, #283618 100%)"
+        }
+      ]
+    }
+  }
+}

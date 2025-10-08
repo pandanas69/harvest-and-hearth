@@ -1,0 +1,16 @@
+{
+    
+  "editor.semanticHighlighting.enabled": false,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.guides.bracketPairs": false,
+  "editor.inlayHints.enabled": "off",
+
+"workbench.colorCustomizations": {
+  "editor.selectionBackground": "#555555",            // softer gray for active selection
+  "editor.selectionHighlightBackground": "#00000000", // transparent for other matches
+  "editor.wordHighlightBackground": "#00000000",      // transparent variable highlights
+  "editor.wordHighlightStrongBackground": "#00000000" // transparent write-access highlights
+}
+
+
+}
