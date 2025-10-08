@@ -1,0 +1,67 @@
+# -------------------------
+# OS junk
+# -------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+._*
+
+# -------------------------
+# Node / build artifacts
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Tailwind / PostCSS build output maps
+*.css.map
+
+# Tailwind / PostCSS cache
+.pnp.*
+.pnp.js
+.cache/
+
+# -------------------------
+# Build output
+# -------------------------
+dist/*
+!dist/main.css   # keep the compiled CSS you deploy
+
+# -------------------------
+# Local environment files
+# -------------------------
+.env
+.env.local
+.env.*.local
+
+# -------------------------
+# Editor / IDE
+# -------------------------
+.vscode/
+.idea/
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+
+# -------------------------
+# WordPress-specific (if they ever appear in your theme folder)
+# -------------------------
+uploads/
+*.sql
+*.sql.gz
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Composer dependencies (if you add PHP packages)
+vendor/
+
+# Sass / Less cache
+.sass-cache/
+*.scssc
+
